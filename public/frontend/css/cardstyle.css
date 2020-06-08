@@ -1,0 +1,660 @@
+.card1 {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 230px;
+  width: 230px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:135.5%;
+  right: 26%;
+
+
+}
+.card2 {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 230px;
+  width: 230px;
+ overflow: hidden;
+  top:135.5%;
+  right: 5%;
+ background-color: white;
+}
+
+.card3 {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+    height: 230px;
+      width: 230px;
+ overflow: hidden;
+  top:185%;
+  right:26%;
+   background-color: white;
+}
+
+.card4 {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+    height: 230px;
+  width: 230px;
+ overflow: hidden;
+  top:185%;
+  right:5%;
+   background-color: white;
+}
+
+
+.card5 {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /*width: 100%;
+  height: 100%;*/
+   border-radius: 5px;
+    height: 390px;
+  width: 308px;
+ overflow: hidden;
+ /*color: white;*/
+ background-color: black;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:15%;
+  right: 2%;
+
+
+}
+.card6 {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /*width: 100%;
+  height: 100%;*/
+   border-radius: 5px;
+    height: 430px;
+  width: 300px;
+ overflow: hidden;
+ /*color: white;*/
+ background-color: black;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:15%;
+  right: 1.5%;
+
+
+}
+.card7 {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /*width: 100%;
+  height: 100%;*/
+   border-radius: 5px;
+    height: 370px;
+  width: 300px;
+ overflow: hidden;
+ /*color: white;*/
+ background-color: black;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:15%;
+  right: 1.5%;
+
+
+}
+/*card 8 9 10 11 is for admin */
+
+.card8 {
+  position: absolute;
+  box-shadow: 0 6px 20px 0 red;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 210px;
+  width: 210px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:8%;
+  right:26%;
+
+
+}
+.card9 {
+  position: absolute;
+  box-shadow: 0 6px 20px 0 green;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+  height: 210px;
+  width: 210px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:52%;
+  right:26%;
+
+
+}
+.card10 {
+  position: absolute;
+ box-shadow: 0 6px 20px 0 red;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 210px;
+  width: 210px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+    top:8%;
+  right:5.5%;
+
+
+
+}
+.card11 {
+  position: absolute;
+ box-shadow: 0 6px 20px 0 green;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+ height: 210px;
+  width: 210px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:52%;
+  right:5.5%;
+
+
+}
+.card12 {
+  position: absolute;
+  box-shadow: 0 6px 20px 0 red;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 210px;
+  width: 210px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:8%;
+  right:46.5%;
+
+
+}
+
+
+.card13 {
+  position: absolute;
+  box-shadow: 0 6px 20px 0 red;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 210px;
+  width: 210px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:52%;
+  right:66.5%;
+
+
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card3:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card4:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card5:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card6:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card7:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card8:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card9:hover {
+  
+  box-shadow: 0 8px 16px 0 ;
+}
+.card10:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card11:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card12:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+  
+.cardcontainer {
+  padding: 2px 16px;
+  color: black;
+}
+.cardcontainer2 {
+  /*padding: 2px 16px;*/
+  color: black;
+
+}
+.cardcontainer3 {
+  padding: 2px 16px;
+  height: 90px;
+  color: black;
+}
+.cardcontainer-login100-form-btn {
+  width: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top:30px;
+}
+.cardcontainer-login100-form-btn2 {
+  width: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top:40px;
+  bottom: 5%;
+}
+
+.cardcontainer-login100-form-btn3 {
+  width: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top:140px;
+  bottom: 5%;
+}
+.cardcontainer-login100-form-btn4 {
+  width: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top:37px;
+  bottom: 5%;
+}
+.cardcontainer-login100-form-btn5 {
+  width: 20%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+  /*padding-top:37px;*/
+ /*margin-bottom: 0%;*/
+ margin-left: 17%;
+}
+.cardcontainer-login100-form-btn6
+{
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*padding-top:37px;*/
+left: 2px;
+top: 2px;
+}
+.cardlogin100-form-btn {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 190px;
+  height: 50px;
+  border-radius: 25px;
+  /*background: #57b846;*/
+  background: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  margin-left: 90px;
+  
+
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.cardlogin100-form-btnqq {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  /*background: #57b846;*/
+  background: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  margin-left: 70px;
+  margin-top: -20px;
+  position: center;
+  
+
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.cardlogin100-form-btn3 {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 190px;
+  height: 50px;
+  border-radius: 25px;
+  /*background: #57b846;*/
+  background: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+ left: 5%;
+  
+
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.cardlogin100-form-btn5 {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 190px;
+  height: 50px;
+  border-radius: 25px;
+  /*background: #57b846;*/
+  background: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*padding: 0 25px;*/
+   margin-bottom: 1%;
+
+  
+
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+
+.cardlogin100-form-btn:hover {
+  background: #333333;
+}
+.cardlogin100-form-btn3:hover {
+  background: #333333;
+}
+.cardimg{
+  height: 150px;
+  width: 100px;
+  padding: 15%;
+}
+.cardimg2{
+  height: 250px;
+  width: 95px;
+}
+.cardimg3{
+  height: 230px;
+  width: 95px;
+}
+
+.cardnews1 {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+    height: 150px;
+  width: 200px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:25%;
+  right: 30%;
+
+
+}
+.cardnews2 {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 150px;
+  width: 200px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:25%;
+  right: 50%;
+
+
+}
+.cardticket {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+ 
+   border-radius: 5px;
+   height: 400px;
+  width: 600px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+margin-left:0%;
+margin-top: 0%;
+
+
+}
+.cardlogin100-form-btnqq2 {
+  font-family: Montserrat-Bold;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000;
+  text-transform: uppercase;
+
+  width: 220px;
+  height: 50px;
+  border-radius: 25px;
+  /*background: #57b846;*/
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  margin-left: 40%;
+  margin-top: -130px;
+  position: center;
+  /*font-weight: 900px;*/
+
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.cardlogin100-form-btnqq1 {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 190px;
+  height: 50px;
+  border-radius: 25px;
+  /*background: #57b846;*/
+  background: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  margin-left: 60px;
+  margin-top: 5%;
+  position: center;
+  
+
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.cardimgqq{
+  height: 270px;
+  width: 300px;
+}

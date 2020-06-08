@@ -1,0 +1,87 @@
+.sidenav{
+	float: left;
+	width: 15%;
+	height: 845px;
+	max-height: all;
+	background-color: #003399;
+}
+.main{
+	float: left;
+	width: 85%;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: #000000;
+	height: 845px;
+	border-color: black;
+	border-width: 2px;
+	border-left-color: black;
+	border-left-style: solid;
+}
+.up{
+	width: 100%;
+	height: 5%;
+}
+.down{
+	padding-left: 0%;
+	padding-top: 4%;
+	height:94.6%;
+}
+.mycontainer{
+	width:100%;
+	height: 100%;
+}
+.img{
+	width: 100%;
+	height: auto;
+}
+div.progress{
+	margin-top: 50px;
+	width: 350px;
+}
+a.view{
+	margin-top: 10px;
+
+}
+div.address{
+		width:70%;
+}
+div.details{
+	margin-left: 11%;
+	margin-top: 2%;
+}
+div.attendance{
+	margin-top: 7%;
+	text-align: center;
+}
+div.welcome{
+	margin-top: 2%;
+	color: white;
+}
+div.sis{
+	font-weight: 800;
+	font-size: large;
+	background-color: rgb(255,255,255);
+	color: black;
+}
+div.img{
+	margin-top: 5%;
+}
+ul.nav{
+	background-color: #CCFFCC;
+}
+a:focus{
+	outline:0;
+}
+div.button{
+	margin-left: 11%;
+}
+div.progressa{
+	text-align: center;
+	margin-left: 34.5%;
+}
+table.container{
+	margin-top: 10%;
+}
+div.container1{
+	width: 26%;
+}

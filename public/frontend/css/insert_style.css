@@ -1,0 +1,20 @@
+div.container{
+	width: 40%;
+	padding-top: 2%;
+}
+form{
+	font-weight: 500;
+}
+div.header{
+	font-weight: 700;
+	font-size: x-large;
+}
+input.btn{
+	float: left;
+}
+button{
+	margin-left: 5px;
+}
+body{
+	background-color: #b3d7ff	;
+}

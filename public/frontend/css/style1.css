@@ -1,0 +1,13 @@
+body.body{
+	background-color: #000000;
+}
+div.container{
+	margin-top: 5%;
+	width: 30%;
+}
+button{
+	float: left;
+}
+button.cancel{
+	margin-left: 5px;
+}

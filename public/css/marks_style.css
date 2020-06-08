@@ -1,0 +1,28 @@
+body{
+	background-color: #b3d7ff;
+}
+div.form-row{
+	margin-top: 2%;
+}
+label{
+	margin-right: 2%;
+}
+div.mycontainer{
+	display: inline-block;
+}
+div.container{
+	width: 12%;
+	margin-top: 6%;
+	margin-left: 17%;
+	background-color: #c2cfcf;
+}
+input.btn{
+	float: left;
+}
+a#a{
+	margin-left: 7%;
+	color: white;
+}
+a:hover{
+	cursor: pointer;
+}

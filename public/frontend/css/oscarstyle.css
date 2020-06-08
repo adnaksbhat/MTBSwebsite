@@ -1,0 +1,30 @@
+.oscartextcontainer {
+  width: 350px;  
+ /*height:290px;*/
+ padding-top:52px;
+ align-items:center;
+ color: white;
+ position: absolute;
+
+}
+
+.oscartextcontainer2 {
+  width: 350px;  
+ /*height:290px;*/
+ padding-top:52px;
+ align-items:center;
+ color: white;
+ position: absolute;
+ left: 1.5%;
+
+}
+.oscartextcontainer3 {
+  width: 350px;  
+ /*height:290px;*/
+ padding-top:79px;
+ align-items:center;
+ color: white;
+ position: absolute;
+ left: 1.5%;
+
+}
