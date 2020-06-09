@@ -36,8 +36,8 @@ class userController extends Controller
                 public function store(Request $request){
                   
 
-                    $result=DB::insert("insert into user(id,username,password,email) values(NULL,? ,? ,?)", [$request->input('name'),$request->input('pass'), $request->input('email')]);
-                    return redirect('/index');
+                    $result=DB::insert("insert into user (id,username,password,email) values(NULL,? ,? ,?)", [$request->input('name'),$request->input('pass'), $request->input('email')]);
+                    return redirect('/');
                 }
 
 
