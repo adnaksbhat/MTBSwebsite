@@ -9,8 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/main.css') }}">
- <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/cardstyle.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/main.css') }}">
+ <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/cardstyle.css') }}">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="viewport" content="width=device-width, initial-scale=1">
 

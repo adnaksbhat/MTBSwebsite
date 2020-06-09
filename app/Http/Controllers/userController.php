@@ -14,17 +14,18 @@ use Illuminate\Support\Facades\DB;
 class userController extends Controller
 {
     //
-     // public function reg(Request $req){
+     // public function store(Request $req){
+
      //        $email = $req->input('email');
-     //        $user = $req->input('username');
-     //        $pass = $req->input('password');
+     //        $user = $req->input('name');
+     //        $pass = $req->input('pass');
      //        $user = new user;
+     //        $user->id=NULL;
      //        $user->email = $email;
      //        $user->username = $user;
      //        $user->password = $pass;
      //        if($user->save()){
-     //            return view('reg_sucess');
-     //        }
+     //            return redirect('/main');}
      //        else{
      //            return redirect('register');
      //        }
@@ -35,8 +36,8 @@ class userController extends Controller
                 public function store(Request $request){
                   
 
-                    $result=DB::insert("insert into user(id,username,password,email) values(DEFAULT,? ,? ,?)", [$request->input('name'),$request->input('pass'), $request->input('email')]);
-                    return redirect('/main');
+                    $result=DB::insert("insert into user(id,username,password,email) values(NULL,? ,? ,?)", [$request->input('name'),$request->input('pass'), $request->input('email')]);
+                    return redirect('/index');
                 }
 
 
