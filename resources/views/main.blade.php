@@ -115,7 +115,8 @@ background-repeat: no-repeat; height: 100%;width: 100%; background-size: auto;">
           <li><a href="/awards">Awards</a></li>
           <li><a href="/contact">Contact</a></li>
           <li><a href="/help">Help</a></li>
-          <li><a href="https://forms.gle/eNBzLeee3udTTCpRA">Feedback</a></li>  </b>     
+          <li><a href="https://forms.gle/eNBzLeee3udTTCpRA">Feedback</a></li>    
+          <li><a href="/">Logout</a></li>  </b>
         </ul>
       </li>
       <!-- dropdown menu styles n all are in menu.css -->

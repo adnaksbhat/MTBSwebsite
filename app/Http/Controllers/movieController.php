@@ -10,6 +10,7 @@ use Session;
 // use App\actor;
 // use App\director;
 use App\movie;
+use App\user;
 // use App\music;
 // use App\user;
 use App\admin;
@@ -286,6 +287,11 @@ class movieController extends Controller
     }
 
 
+    //new
+
+
+       
+
 
         // public function reg(Request $req){
         //     $email = $req->input('email');
@@ -334,6 +340,32 @@ class movieController extends Controller
                 </script>";
             }
         }
+
+
+
+
+
+
+        public function newdetails($uid,$mid,$tid){
+            
+                  $uname=user::where('id','=',$uid)->value('username');
+                  $uemail=user::where('id','=',$uid)->value('email');
+
+                  $mname=movie::where('id','=',$mid)->value('mname');
+                   $tname=theatre::where('id','=',$tid)->value('tname');
+
+
+return view('newdetails',compact('uname','uemail','mname','tname'));
+
+           
+        }
+
+
+
+
+
+    
+
 
 
 

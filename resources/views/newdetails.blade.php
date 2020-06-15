@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>View Booking</title>
+	<title>View Details</title>
 
  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,6 +16,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
+
+ 
  	table {
   border-collapse: collapse;
   width: 50%;
@@ -37,46 +39,38 @@ body{
 <body>
 
 
-<input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>
   <center>
-  <table border="9">
-		<thead>3
 
 
 
 
-   
-		  <th>ID</th>
-			<th>Movie id</th>
-			<th>Theatre id</th>
-			<th>Seats</th>
-      <th>Action</th>
+    <div class="card1qw">
+  <div class="cardcontainer"><br>
+    <input type="submit" name="IMDB" class="cardlogin100-form-btnqq1qwe" value= "username: {{$uname}} ">
+  </input><br>
+     <div>
+      <input type="submit" name="IMDB" class="cardlogin100-form-btnqq1qwe" value={{$mname}} >
+        </input><br>
+    </div>
+      <input type="submit" name="IMDB" class="cardlogin100-form-btnqq1qwe" value={{$tname}} >
+        </input><br>
+         <input type="submit" name="IMDB" class="cardlogin100-form-btnqq1qwe" value={{$uemail}} >
+        </input>
+    </div>
 
-		</thead>
-		<!-- it loops unitl every item is there -->
-		@foreach($res as $item)     
-		<tbody id="myTable">
-			<td>{{$item->id}}</td>
+  </div>
+</div>
+<br>
+<br>
+ <a class="txt2" href="/ok">             
+  <input type="submit" name="ok" class="cardlogin100-form-btnqqqwqw" value="<-Back" >
+    </input></a>
 
-			<td>{{$item->mid}}</td>
-				<td>{{$item->tid}}</td>
-			<td>{{$item->not}}</td>
-	     <td><a href="viewbooking/{{$item->id}}">Cancel/</a><a href="newdetails/{{$item->uid}}/{{$item->mid}}/{{$item->tid}}">View Details</a></td>
-		</tbody>
-     @endforeach
-	</table>
+
+
 </center>
-	<script>
-$(document).ready(function(){
-  $("#myInput").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#myTable tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
-});
-</script>
+
 
 </body>
 </html>

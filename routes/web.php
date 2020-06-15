@@ -28,6 +28,7 @@ Route::get('/contact', function () {
 Route::get('/news', function () {
      return view('news');
 });
+
 Route::view('/register','register');
 // Route::post('/reg','movieController@reg');
 // Route::post('/add','movieController@add');
@@ -49,6 +50,13 @@ Route::get('/imdb', function () {
 Route::get('/navhome', function () {
     return view('main');
 });
+
+
+Route::get('/ok', function () {
+    return view('adminhome');
+});
+
+
 Route::get('/navindex', function () {
     return view('index');
 });
@@ -126,6 +134,11 @@ Route::get('/viewbooking','movieController@viewbooking');
 Route::get('/viewbooking/{id}','movieController@cancel');
 /////////////////////////////////////////////////////////////////////
 //////////////////user///////////////////////////////////////////////
+
+
+Route::get('/newdetails/{uid}/{mid}/{tid}','movieController@newdetails');
+
+
 Route::post('/reg','userController@reg');
 Route::post('/login','userController@login');
 Route::get('/book','userController@book');

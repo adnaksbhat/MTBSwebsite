@@ -19,6 +19,27 @@
 
 
 }
+.card1qw {
+  position: center;
+  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 300px;
+  width: 230px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+
+
+
+
+}
 .card2 {
   position: absolute;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -240,7 +261,7 @@
 
 .card13 {
   position: absolute;
-  box-shadow: 0 6px 20px 0 red;
+  box-shadow: 0 6px 20px 0 green;
   transition: 0.3s;
   width: 100%;
   height: 100%;
@@ -255,12 +276,58 @@
   /*float: left;*/
   /*perspective: 500px;*/
   top:52%;
-  right:66.5%;
+  right:46.5%;
+
+
+}
+
+.card8q {
+  position: absolute;
+  box-shadow: 0 6px 20px 0 red;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 210px;
+  width: 210px;
+ overflow: hidden;
+ color: white;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:8%;
+  right:46.5%;
+
+
+}
+.card8qz {
+  position: absolute;
+  box-shadow: 0 6px 20px 0 red;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+   border-radius: 5px;
+   height: 210px;
+  width: 210px;
+ overflow: hidden;
+ color: black;
+ background-color: white;
+ /*margin-left: 20%;*/
+  /*margin: -150px;*/
+  /*float: left;*/
+  /*perspective: 500px;*/
+  top:8%;
+  right:42%;
 
 
 }
 
 .card1:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card8qz:hover {
   box-shadow: 0 8px 16px 0 ;
 }
 .card2:hover {
@@ -295,6 +362,12 @@
   box-shadow: 0 8px 16px 0 ;
 }
 .card12:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card13:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.card8q:hover {
   box-shadow: 0 8px 16px 0 ;
 }
   
@@ -407,7 +480,7 @@ top: 2px;
   justify-content: center;
   align-items: center;
   padding: 0 25px;
-  margin-left: 90px;
+  margin-left: 95px;
   
 
 
@@ -657,4 +730,62 @@ margin-top: 0%;
 .cardimgqq{
   height: 270px;
   width: 300px;
+}
+.cardlogin100-form-btnqq1qwe {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 190px;
+  height: 50px;
+  border-radius: 5px;
+  /*background: #57b846;*/
+  background: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: center;
+  
+
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.cardlogin100-form-btnqqqwqw {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 110px;
+  height: 50px;
+  border-radius: 25px;
+  /*background: #57b846;*/
+  background: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: center;
+  
+
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
 }

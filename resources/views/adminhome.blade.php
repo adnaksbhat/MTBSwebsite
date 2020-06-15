@@ -56,7 +56,7 @@
       <!-- <li><a href="#">Back</a></li> -->
  <!--      <li><a href="/nav1">Home</a></li> -->
         <li><a href="/navback"><span class="  glyphicon glyphicon-arrow-left"></span> </a></li>
-       <li><a href="/navhome"><span class="glyphicon glyphicon-home"></span> </a></li>
+       <li><a href="/adminhome"><span class="glyphicon glyphicon-home"></span> </a></li>
 
     </ul>
 
@@ -65,7 +65,7 @@
  <!--      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
        
-       <li><a href="/navplus"><span class="glyphicon glyphicon-plus-sign"></span> </a></li>
+       <li><a href="/"><span class=""></span><b>Logout Admin</b> </a></li>
     </ul>
   </div>
 </nav>
@@ -149,6 +149,18 @@
 
    
 </div>
+</div>
+
+<div class="card8q">
+ 
+  <img src="images/mask12.jpg" class="cardimg" alt="Avatar" style="width:100%">
+  <div></div>
+ <div class="cardcontainer-login100-form-btn5">      
+<a href="/addmovies">     
+  <input type="submit" name="IMDB" class="cardlogin100-form-btn" value="Mail Info" >
+    </input></a>
+  </div>
+
 </div>
 
 

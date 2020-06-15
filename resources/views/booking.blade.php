@@ -91,7 +91,7 @@ select{
 
 </head>
 <body>
-	
+	<center>
 	<form  class="form-container" method="post" action="/bookNow">
 		@csrf
 		@foreach($res as $item)
@@ -108,6 +108,7 @@ select{
 		<input type="number" name="no">
 		<button type="submit" class="btn" value="Book Now">Book Now</button>
 	</form>
+  </center>
 
 
 

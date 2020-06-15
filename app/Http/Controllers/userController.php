@@ -36,7 +36,8 @@ class userController extends Controller
                 public function store(Request $request){
                   
 
-                    $result=DB::insert("insert into \"user\" values (DEFAULT,? ,? ,?)", [$request->input('name'),$request->input('pass'), $request->input('email')]);
+                 $result=DB::insert("insert into \"user\" values (DEFAULT,? ,? ,?)", [$request->input('name'),$request->input('pass'), $request->input('email')]);
+                   
                     return redirect('/');
                 }
 
@@ -77,6 +78,7 @@ class userController extends Controller
     }
     public function bookNow(Request $req){
     	$uid = Session::get('id');
+        $uemail=user::where('id','=',$uid)->value('email');
     	$mname = $req->input('mname');
     	$tname = $req->input('tname');
     	$not = $req->input('no');
@@ -87,7 +89,13 @@ class userController extends Controller
         if($not > $seats){
             // echo "<script>alert('Housefull');
             //  </script>";
-            return redirect('/book')->with('status','housefull');
+
+            // return redirect('/book')->with('status','------Housefull------');
+
+             echo "<script>
+                    alert('Housefull!! :(');
+                    window.location.href = '/book';
+                </script>";
         }
         $cseats = $seats - $not;
         theatre::where('tname','=',$tname)->update(['seats'=>$cseats]);
@@ -100,7 +108,9 @@ class userController extends Controller
  			$tres = theatre::where('tname','=',$tname)->get();
  			$bres = booking::where('mid','=',$mid)->where('tid','=',$tid)->where('not','=',$not)->get();
 
- 			return view('book_details',compact('mres','tres','bres'));
+
+
+ 			return view('book_details',compact('mres','tres','bres','uemail'));
     	}
 
     }
